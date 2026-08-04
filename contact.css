@@ -2,16 +2,22 @@ body {
     background: linear-gradient(
         right green, yellow, green
     );
-    color: white
+    color: black
 }
-ul button {
-    background-color: #5430cd;
-    color: white;
-    border: none;
-    font-size: 16px;
+.click {
+    display: block;
+    background: rgb(255, 255, 255);
+    border-color: blue;
+    border: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+button {
+    background-color: none;
+    color: blue;
+    font-size: 14px;
     font-weight: bold;
-    cusor: pointer;
+    cursor: pointer;
 }
-ul button:hover {
-    background-color: #45a049;
-}
+
