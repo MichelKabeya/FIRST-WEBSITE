@@ -4,11 +4,11 @@ body {
     );
     color: black
 }
-.click {
+form {
     display: block;
     background: rgb(255, 255, 255);
-    border-color: blue;
     border: 20px;
+    border: 1px blue;
     gap: 20px;
     display: flex;
     flex-direction: row;
