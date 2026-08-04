@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(
+        right green, yellow, green
+    );
+    color: white
+}
+ul button {
+    background-color: #5430cd;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cusor: pointer;
+}
+ul button:hover {
+    background-color: #45a049;
+}
