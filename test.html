@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="test.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <div clas="box">
+    <div class="box">
           <input type="text" id="text" placeholder="type something">
-          <button onclick="speak()">
-            speak
+          <button id="erase">
+            🎙️
           </button>
     </div>
-    <script>
-        function speak(){
-            speechSynthesis.speak(
-                new
-                SpeechSynthesisUtterance(text.value)
-            )
-        }
-    </script>
+    <div class="box1">
+        <h2>Create Password</h2>
+        <div class="inputbox">
+            <input type="password" id="password" placeholder="Enter password">
+            <span class="eye" id="eye">&#x1F441</span>
+        </div>
+        <div class="strenght">
+            <div class="bar" id="bar"></div>
+        </div>
+        <div class="message" id="message">
+            start typing...
+        </div>
+    </div>
     
 </body>
 </html>

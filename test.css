@@ -1,36 +1,98 @@
 body {
     background-color: rgb(10, 43, 72);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
 input {
     background-color:rgb(9, 54, 94); 
     cursor: text;
     outline: none;
-     width: 400px;
+    width: 400px;
     height: 40px;
     border-radius: 20px;
-    border: 1 solid white;
+    color: white;
+    border: 1px solid white;
     padding-left: 20px;
 }
 .box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
-    border: 1 solid white;
+    align-content: center;
+    border-radius: 10px;
+    border: 1px solid white;
     padding: 20px;
-    margin: 0;
-    outline: rgb(0, 255, 247);
+    width: fit-content;
+    margin: 0 auto;
 }
 button {
-    background-color: aquamarine;
+    background-color: rgb(35, 39, 37);
     color: black;
     height: 40px;
     width: auto;
+    border-radius: 10px;
     cursor: pointer;
 
 }
 button:hover {
-    background-color: rgb(23, 146, 105);
+    background-color: rgb(48, 58, 55);
+    color: white;
 }
 input:focus {
-    border-color: aquamarine;
+    border: 2px solid aquamarine;
+}
+*{
+   box-sizing: border-box; 
+}
+.box1 {
+    width: 350px;
+    padding: 30px;
+    background: rgb(10, 43, 72);
+    border-radius: 20px;
+    color: white;
+
+}
+h2 {
+    margin-top: 0;
+    text-align: center;
+
+}
+.inputbox {
+    position: relative;
+    
+}
+.box1 input {
+    width: 100%;
+}
+
+.eye {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.strenght {
+    height: 8px;
+    margin-top: 18px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.bar {
+    width: 0;
+    height: 100%;
+    border-radius: 20px;
+    transition: 1s;
+}
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
 }
