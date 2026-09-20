@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(10, 43, 72);
+}
+input {
+    background-color:rgb(9, 54, 94); 
+    cursor: text;
+    outline: none;
+     width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1 solid white;
+    padding-left: 20px;
+}
+.box {
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1 solid white;
+    padding: 20px;
+    margin: 0;
+    outline: rgb(0, 255, 247);
+}
+button {
+    background-color: aquamarine;
+    color: black;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: rgb(23, 146, 105);
+}
+input:focus {
+    border-color: aquamarine;
+}
